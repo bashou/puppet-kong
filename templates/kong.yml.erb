@@ -87,7 +87,7 @@ cassandra:
     certificate_authority: "<% @cassandra_ssl_certificate_authority %>"
 <% end -%>
 <% if @cassandra_user -%>
-  user: "<%= @cassandra_user %>"
+  username: "<%= @cassandra_user %>"
 <% end -%>
 <% if @cassandra_password -%>
   password: "<%= @cassandra_password %>"
